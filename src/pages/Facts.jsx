@@ -15,7 +15,7 @@ export const Facts = () => {
 
   return (
     <main>
-      <button className="h-80 mt-28 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+      <span className="h-80 w-3/4 mt-28 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
         <img
           className="object-cover w-full rounded-t-lg h-96 md:h-full md:w-48 md:rounded-none md:rounded-s-lg"
           src={chucknorris}
@@ -29,7 +29,7 @@ export const Facts = () => {
             {fact.value}
           </p>
         </div>
-      </button>
+      </span>
     </main>
   );
 };
