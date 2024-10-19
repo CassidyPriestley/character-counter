@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useTitle } from "../hooks/useTitle";
 
 export const HomePage = () => {
+  useTitle("Character Counter");
   const [characters, setCharacters] = useState("");
   const [words, setWords] = useState("");
 

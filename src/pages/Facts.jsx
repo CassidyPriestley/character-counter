@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { useTitle } from "../hooks/useTitle";
 import chucknorris from "../assets/images/chucknorris.jpg";
 
 export const Facts = () => {
+  useTitle("Chuck Norris Facts");
   const [fact, setFact] = useState({});
 
   useEffect(() => {

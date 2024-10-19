@@ -1,6 +1,7 @@
-import React from "react";
+import { useTitle } from "../hooks/useTitle";
 
 export const PageNotFound = () => {
+  useTitle("Page Not Found");
   return (
     <main>
       <span className="mt-32 text-center">
