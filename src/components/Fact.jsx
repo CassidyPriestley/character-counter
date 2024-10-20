@@ -11,7 +11,6 @@ export const Fact = () => {
       setFact(data.value);
     }
     fetchfact();
-    console.log(fact);
   }, []);
 
   return (
